@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import flipsignf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-flipsignf@deno/mod.js';
+import flipsignf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-flipsignf@v0.1.0-deno/mod.js';
 ```
 
 #### flipsignf( x, y )
@@ -91,7 +91,7 @@ z = flipsignf( 0.0, -1.0 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import flipsignf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-flipsignf@deno/mod.js';
+import flipsignf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-flipsignf@v0.1.0-deno/mod.js';
 
 var x;
 var y;
