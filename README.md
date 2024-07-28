@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-flipsignf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-flipsignf@umd/browser.js' )
+flipsignf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-flipsignf@v0.2.2-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var flipsignf = require( 'path/to/vendor/umd/math-base-special-flipsignf/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-flipsignf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-flipsignf@v0.2.2-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -118,7 +118,7 @@ z = flipsignf( 0.0, -1.0 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-flipsignf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-flipsignf@v0.2.2-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
